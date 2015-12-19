@@ -19,9 +19,8 @@ public class Asintatico {
 			
 			if (i != (aux.size() - 1)) {
 				linea = aux.get(i + 1);
-				StringTokenizer token1 = new StringTokenizer(linea," ;");
+				StringTokenizer token1 = new StringTokenizer(linea);
 				tipo = token1.nextToken();
-
 			}
 			tablaSimbolos.add(variable + " " + tipo);
 
